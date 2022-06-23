@@ -6,7 +6,7 @@ spec:
   designerFlowsOperationMode: disabled
   license:
     accept: true
-    license: L-KSBM-C37J2R
+    license: L-KSBM-CCBJUS
     use: CloudPakForIntegrationNonProduction
   replicas: 1
   router:
@@ -19,7 +19,7 @@ spec:
   pod:
     containers:
       runtime:
-        image: image-registry.openshift-image-registry.svc:5000/ci/create-customer-details-rest:21ccc074e389bcac696b8b965500d40f6357ad10
+        image: image-registry.openshift-image-registry.svc:5000/ci/create-customer-details-rest:cb441ce67c0abe320db10d123089364eb0d342b8
         imagePullPolicy: Always
   configurations:
     - create-customer-serverconf.yaml
