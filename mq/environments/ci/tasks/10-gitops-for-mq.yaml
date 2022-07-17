@@ -126,7 +126,7 @@ spec:
           fi
 
           echo "YAML_ROOT: $YAML_ROOT"
-
+          ls
           if [[ -f "$YAML_ROOT/queuemanager.yaml" ]]; then
             export YAML="$YAML_ROOT/queuemanager.yaml"
           elif [[ -f "$YAML_ROOT/deployment.yaml" ]]; then
