@@ -4,7 +4,7 @@ metadata:
   name: mq-metric-samples
   labels:
     app.kubernetes.io/name: mq-metric-samples
-    app.kubernetes.io/instance: mq-metric-samples
+    app.kubernetes.io/instance: mq-metric-samples-instance
     app: mq-metric-samples
     app.kubernetes.io/part-of: inventory
 spec:
@@ -12,7 +12,7 @@ spec:
   selector:
     matchLabels:
       app.kubernetes.io/name: mq-metric-samples
-      app.kubernetes.io/instance: mq-metric-samples
+      app.kubernetes.io/instance: mq-metric-samples-instance
   template:
     metadata:
       labels:
