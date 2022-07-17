@@ -17,7 +17,7 @@ spec:
     metadata:
       labels:
         app.kubernetes.io/name: mq-metric-samples
-        app.kubernetes.io/instance: dev-mq-metric-samples-instance
+        app.kubernetes.io/instance: dev-mq-metric-samples
     spec:
       serviceAccountName: mq-metric-samples
       volumes:
