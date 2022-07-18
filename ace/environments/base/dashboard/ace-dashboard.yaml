@@ -10,5 +10,5 @@ spec:
   useCommonServices: true
   version: '12.0'
   storage:
-    type: ephemeral
+    type: ibmc-file-gold-gid
   replicas: 1
