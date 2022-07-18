@@ -45,7 +45,7 @@ resources:
 
 # - triggertemplates/mq-qm-dev-triggertemplate.yaml
 # - eventlisteners/mq-qm-dev-eventlistener.yaml
-# - routes/mq-qm-dev-route.yaml
+- routes/mq-qm-dev-route.yaml
 #
 # - triggertemplates/mq-spring-app-dev-triggertemplate.yaml
 # - eventlisteners/mq-spring-app-dev-eventlistener.yaml
