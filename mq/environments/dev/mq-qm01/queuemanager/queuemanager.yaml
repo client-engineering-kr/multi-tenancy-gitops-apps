@@ -71,8 +71,8 @@ spec:
   tracing:
     agent: {}
     collector: {}
-    enabled: false
-    namespace: ""
+    enabled: true
+    namespace: "tools"
   version: 9.2.3.0-r1
   web:
     enabled: true
