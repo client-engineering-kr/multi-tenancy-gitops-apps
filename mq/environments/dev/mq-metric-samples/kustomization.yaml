@@ -1,5 +1,5 @@
 resources:
- - ../../base/mq-metric-samples
- - configmap/configmap.yaml
+- ../../base/mq-metric-samples
+- configmap/configmap.yaml
 patchesStrategicMerge:
- - mq-metric-samples/deployment.yaml
+- mq-metric-samples/deployment.yaml
