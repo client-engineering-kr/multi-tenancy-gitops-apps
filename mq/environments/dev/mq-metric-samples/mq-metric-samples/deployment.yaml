@@ -23,7 +23,7 @@ spec:
       volumes:
       containers:
         - name: mq-metric-samples
-          image: image-registry.openshift-image-registry.svc:5000/ci/mq-metric-samples:v5.3.3
+          image: image-registry.openshift-image-registry.svc:5000/ci/mq-metric-samples:v5.3.4
           imagePullPolicy: IfNotPresent
           volumeMounts:
           envFrom:
